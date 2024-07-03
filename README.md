@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Red Planner Front-End
 
-## Getting Started
+## Описание
+Red Planner Front-End - это веб-приложение для планирования задач и управления проектами, разработанное с использованием Next.js. Оно предоставляет пользователям удобный и современный интерфейс для управления своими задачами и проектами, обеспечивая высокую производительность и гибкость. Приложение включает в себя такие функции, как планирование задач на день и неделю, таймер Pomodoro и авторизацию пользователей.
 
-First, run the development server:
+Этот проект был создан для понимания взаимодействия между front-end и back-end частями веб-приложений.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![red-planner](https://github.com/ayxan115/red-planner-front-end/blob/main/screnShots/Снимок%20экрана%202024-07-03%20в%2014.47.28.png)
+![red-planner](https://github.com/ayxan115/red-planner-front-end/blob/main/screnShots/Снимок%20экрана%202024-07-03%20в%2014.47.47.png)
+![red-planner](https://github.com/ayxan115/red-planner-front-end/blob/main/screnShots/Снимок%20экрана%202024-07-03%20в%2014.47.15.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Технологии
+- **Next.js**: Используется для создания серверного и клиентского рендеринга.
+- **JavaScript**: Основной язык программирования проекта.
+- **tailwind-variants**: Используется для стилизации компонентов с помощью Tailwind CSS.
+- **Sass**: Препроцессор CSS для улучшения и управления стилями.
+- **Axios**: Библиотека для выполнения HTTP-запросов.
+- **clsx**: Утилита для условного объединения классов CSS.
+- **js-cookie**: Работа с cookie на стороне клиента.
+- **react-hook-form**: Управление формами в React.
+- **@dnd-kit/core**: Библиотека для создания drag-and-drop функциональности.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Установка
+Для локального запуска проекта выполните следующие шаги:
 
-## Learn More
+1. Клонируйте репозиторий:
+    ```sh
+    git clone https://github.com/ваш-username/red-planner-front-end.git
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Перейдите в папку проекта:
+    ```sh
+    cd red-planner-front-end
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Установите зависимости:
+    ```sh
+    npm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Запустите приложение:
+    ```sh
+    npm run dev
+    ```
 
-## Deploy on Vercel
+## Использование
+После запуска приложения откройте [http://localhost:3000](http://localhost:3000) в вашем браузере.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Функциональность
+- **Планирование задач**: Создание, редактирование и удаление задач на день, неделю и т.д.
+- **Управление проектами**: Создание и управление проектами с возможностью добавления задач.
+- **Таймер Pomodoro**: Помогает управлять временем и повышать продуктивность.
+- **Drag-and-drop**: Удобное управление задачами с помощью drag-and-drop.
+- **Авторизация**: Вход и регистрация пользователей с использованием cookie.
+- **Управление формами**: Простой и удобный ввод данных с использованием react-hook-form.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Контрибьютинг
+Если вы хотите внести вклад в проект, пожалуйста, создайте форк репозитория и отправьте пулл-реквест с вашими изменениями. Мы приветствуем любые улучшения и исправления.
+
+## Лицензия
+Этот проект лицензирован под MIT License - подробности см. в файле LICENSE.
